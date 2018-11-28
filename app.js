@@ -7,9 +7,11 @@ const notes = require("./notes.js");
 // var res = notes.addNote();
 // console.log(res);
 
-var add = notes.add(3,5);
+var add = notes.add(3, 5);
 console.log(add);
 
+var subtract = notes.subtract(8, -2);
+console.log(subtract);
 // var user = os.userInfo();
 
 // fs.appendFileSync("greetings.txt", `Hello ${user.username}! You are ${notes.age}.`);
