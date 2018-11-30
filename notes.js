@@ -51,5 +51,7 @@ var removeNote = title => {
 	saveNotes(filtered);
 	//filter notes, remove the one with title of argument
 	//save new notesa rray
+
+	return notes.length !== filtered.length;
 };
 module.exports = { addNote, getAll, getNote, removeNote };
