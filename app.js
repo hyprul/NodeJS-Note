@@ -14,7 +14,7 @@ console.log('Process', process.argv);
 console.log("Yargs", argv)
 
 if (command === "add") {
-	console.log("Adding new note");
+	notes.addNote(argv.title, argv.body);
 } else if (command === "list") {
 	console.log("Listing all notes");
 } else if (command === "read") {
